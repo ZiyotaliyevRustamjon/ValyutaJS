@@ -14,7 +14,7 @@ const usd = document.querySelector("#usd");
 uzs.addEventListener("input", (e) => {
     const request = new XMLHttpRequest()
 
-    request.open('GET', 'main.json');
+    request.open('GET', 'js/main.json');
     request.setRequestHeader('Content-Type', 'application/json; charset=utf-8');
     request.send()
 
