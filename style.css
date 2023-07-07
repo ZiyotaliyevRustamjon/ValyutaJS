@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .content{
     width: 50%;
     max-width: 50%;
@@ -17,4 +22,18 @@
     padding: 10px;
     border-radius: 10px;
     border: none;
+}
+footer{
+    position: fixed;
+}
+.footerBar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:150px;
+    background-color: #3D3C42;
+    padding: 10px;
+    color: #fff;
+    position: fixed;
+    gap: 30px;
 }
